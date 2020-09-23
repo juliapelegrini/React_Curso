@@ -16,6 +16,7 @@ import UsuarioInfo from "./componentes_basicos/condicional/Usuarioinfo";
 import DiretaPai from "./componentes_basicos/comunicacao/DiretaPai"
 import IndiretaPai from "./componentes_basicos/comunicacao/IndiretaPai"
 import Input from './componentes_basicos/formulario/Input'
+import Contador from './componentes_basicos/contador/Contador'
 
 const el = document.getElementById("root");
 ReactDOM.render(
@@ -64,6 +65,10 @@ ReactDOM.render(
 
       <Card titulo="Componente Controlado" color="#e45f56">
       <Input></Input>
+      </Card>
+
+      <Card titulo="Contador" color="#424242">
+      <Contador numeroInicial={10}></Contador>
       </Card>
     </div>
   </div>,
